@@ -19,6 +19,7 @@ Beta release
 
 ### Changed
 
+- The *check all/clear all* button for card filters has been split into 2 separate buttons.
 - The card detail page has been slightly reworked and now displays *Evolves from* information for Pokémons.
 - Reworked premium card collection management by making it more intuitive to use. Card amounts can now be increased/decreased by default (not disabled) even if no card variant type, card condition or card language is selected (by assuming defaults *Unlimited*, *English* and *Mint*).
 - Premium users: moved the card variant type, card language and card conditions options to a convenient card collection options modal/dialog.
@@ -29,3 +30,18 @@ Beta release
 
 - Cards without an *Unlimited* card variant type can now be added to your card collection without failing.
 - Many small bugs and security fixes.
+
+## 0.3.0 - 2017-09-27
+
+### Added
+
+- A card image can now be added when submitting a card.
+- Added a "random card" link to the site navigation.
+
+### Changed
+
+- Due to technical limitations, card edits can no longer be submitted (for now). If you notice an error or missing data, please leave a comment instead.
+
+### Fixed
+
+- Fixed a bug causing the filtering of expansion series to ignore certain checkboxes.
