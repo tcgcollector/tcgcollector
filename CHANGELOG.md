@@ -45,3 +45,10 @@ Beta release
 ### Fixed
 
 - Fixed a bug causing the filtering of expansion series to ignore certain checkboxes.
+
+## 0.3.1 - 2017-09-29
+
+### Fixed
+
+- When viewing all cards of a single expansion, the displayed card amount did change change if a certain card variant type was active (card collection options). For example, an expansion with 169 cards would still display 169 instead of e.g. 122 if *Reverse Holo* was active.
+- The card image is now sized consistently on all card detail pages even if the image has a greater or lower resolution.
