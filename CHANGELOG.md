@@ -52,3 +52,15 @@ Beta release
 
 - When viewing all cards of a single expansion, the displayed card amount did change change if a certain card variant type was active (card collection options). For example, an expansion with 169 cards would still display 169 instead of e.g. 122 if *Reverse Holo* was active.
 - The card image is now sized consistently on all card detail pages even if the image has a greater or lower resolution.
+
+## 0.3.2 - 2017-10-05
+
+### Fixed
+
+- The card filters now get updated correctly when using the browser back and forward buttons (history). Also, the overal performance of the cards page is massively improved because from now on the card filters are only loaded when the *card filters* button is clicked.
+- Fixed a bug causing an error when logging in after verifying your email address.
+- Fixed a bug causing the wrong card counts to be shown on the expansions page.
+- Fixed a bug causing the card filter *multiple* and *exclude* switches to remain active even if they were not checked by the user.
+- Fixed a bug causing the random card feature to link to a non-existent card on rare occasions.
+- Made some minor visual improvements to the card detail page.
+- Fixed some minor interface bugs.
