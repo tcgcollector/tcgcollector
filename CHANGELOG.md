@@ -83,9 +83,27 @@ Beta release
 - Made some performance optimizations to card collection management.
 - Improved the card collection options "more info" text (premium).
 - Improved the info messages in the card collection card modal/dialog when decreasing an aggregated or non-default card amount (premium).
+- Minor user interface and design improvements.
 
 ### Fixed
 
 - When viewing your card collection on the cards page, the cards in your collection ratio didn't get updated if a specific card variant was selected.
 - Fixed a bug causing the card text and illustrator name card filters not to be filled in when active.
 - Fixed a bug causing the card submission card image to be uploaded even after it was reset.
+
+## 0.5.0 - 2017-10-25
+
+### Added
+
+- Cards can now be sorted by their National Pokédex number.
+- A overview of missing card images per expansion has been added. It can be accessed from the contribute section on the about page.
+
+### Changed
+
+- Dropdowns now remember the position of the selected option.
+- Improved the card submissions page design to resemble the internal content management system (CMS).
+
+### Fixed
+
+- Changing the *Sort by* option on the cards page now correctly resets the result to the first page.
+- Sorting cards by name now correctly sorts cards with the same name.
