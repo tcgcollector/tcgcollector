@@ -103,26 +103,49 @@ Beta release
 
 ### Added
 
-- Images of cards which are not in your card collection now appear lighter (opacity).
-- Cards can be edited again using the card submission system via the card details page (was temporarily removed in 0.3.0).
-- A proper content management system for cards and expansions has been added for administrator users.
-- The card details page now displays *Evolves into* information for Baby Pokémon.
-- Card effects, attacks, attack energies, rules, weaknesses and resistances can now be sorted.
-- An *in card collection* switch has been added to the overview of missing card images.
-- More detailed error messages have been added.
+- Images of cards which are not in your card collection now appear lighter (opacity) (#23).
+- Cards can be edited again using the card submission system via the card details page (was temporarily removed in 0.3.0) (#31).
+- A proper content management system for cards and expansions has been added for administrator users (#32).
+- The card details page now displays *Evolves into* information for Baby Pokémon (#16).
+- Card effects, attacks, attack energies, rules, weaknesses and resistances can now be ordered (#34).
+- An *in card collection* switch has been added to the overview of missing card images (#19).
+- More detailed error messages have been added (#41).
 
 ### Changed
 
-- Cards no longer have all languages by default: each language version of a card is now a card variant on its own.
+- Cards no longer have all languages by default: each language version of a card is now a card variant on its own (#21).
 
 ### Fixed
 
-- The "go to series" button on the mobile version of the expansions page works again.
-- Clearing all card filters now collapses all card filter panels instead of only the active ones.
-- The card list columns are now aligned correctly if a column contains truncated text and if the card collection checkbox/buttons column is shown.
-- The *page* query string parameter now gets cleared from the URL after resetting to the first page of a card search result.
-- Fixed a bug causing the card details page to hang while loading.
-- Fixed a bug causing the card collection options to remain active on the card details page.
-- Users now get forcefully logged out if any security related changes (such as password) were made from another session.
-- The *remember me* login option no longer causes unexpected behavior.
-- AJAX routes now return HTTP unauthorized (401) and HTTP forbidden (403) instead of redirecting (302) to the login page.
+- The "go to series" button on the mobile version of the expansions page works again (#39).
+- Clearing all card filters now collapses all card filter panels instead of only the active ones (#29).
+- The card list columns are now aligned correctly if a column contains truncated text and if the card collection checkbox/buttons column is shown (#40).
+- The *page* query string parameter now gets cleared from the URL after resetting to the first page of a card search result (#35).
+- Fixed a bug causing the card details page to hang while loading (#30).
+- Fixed a bug causing the card collection options to remain active on the card details page (#38).
+- Users now get forcefully logged out if any security related changes (such as password) were made from another session (#45).
+- The *remember me* login option no longer causes unexpected behavior (#42).
+- AJAX routes now return HTTP unauthorized (401) and HTTP forbidden (403) instead of redirecting (302) to the login page (#46).
+
+## 0.7.0 - 2018-01-26
+
+### Added
+
+- The default card collection options are now configurable (#15).
+- The card collection options can now be overriden when adding or removing an expansion to or from your card collection (#54).
+- URLs with trailing slashes get redirected from now on (#56).
+
+### Changed
+
+- The main navigation bar has been reworked so that more links can fit (#59).
+- The "Back to previous page" button and the `referenceUrl` query string parameter have been replaced by breadcrumb links (#33).
+- The overal layout of the card details page has been reworked.
+- The card submissions have been made more accessible.
+- A large amount of JavaScript dependencies have been removed causing all JavaScript combined to be almost halved in size. This should improve page loading times.
+
+### Fixed
+
+- The card collection modal/dialog no longer opens twice if a card collection update is pending (#11).
+- The card collection premium warning is now also shown when adding or removing an expansion to or from your card collection (#61).
+- Forms inside modals no longer get their HTML5 validation triggered after reopening the modal on Firefox (#47).
+- The animation/transition of modals, full page views and fullscreen dropdowns no longer activates on page load in IE/Edge (#57).
