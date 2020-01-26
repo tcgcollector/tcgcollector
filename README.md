@@ -3,7 +3,7 @@
 ---
 
 This project was moved to GitLab.
-Please use the https://gitlab.com/tcgcollector/tcgcollector repository from now on.
+Please use the https://gitlab.com/tcgcollector/tcgcollector-issues repository from now on.
 
 ---
 
