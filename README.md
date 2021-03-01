@@ -7,7 +7,7 @@ Please use the https://gitlab.com/tcgcollector/tcgcollector-issues repository fr
 
 ---
 
-This is the public issue tracker repository for [TCG Collector](https://www.tcgcollector.com/).
+This is the issue tracker for [TCG Collector](https://www.tcgcollector.com/).
 TCG Collector is an extensive Pokémon card database and collection tracker.
 
 You can join our community on [Discord](https://discord.gg/jJZm5KG).
