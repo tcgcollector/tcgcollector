@@ -1,4 +1,4 @@
-# TCG Collector
+# TCG Collector issues
 
 ---
 
