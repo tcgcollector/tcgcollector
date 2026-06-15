@@ -9,5 +9,5 @@ Please use the <https://gitlab.com/tcgcollector/tcgcollector> repository going f
 
 A Pokémon TCG collection tracker focused on detailed collection management.
 
-Join our community on Discord: <https://discord.gg/jJZm5KG>.
-Get in touch with us: <https://www.tcgcollector.com/contact>.
+Join our community on Discord: <https://discord.gg/jJZm5KG>.  
+Get in touch with us: <https://www.tcgcollector.com/contact>.  
